@@ -26,3 +26,9 @@ Package and installation instructions at: https://www.nuget.org/packages/OpenCol
 
 This library provides extensions and base classes for low-level .NET framework
 types.
+
+# Related Project
+
+* [OpenCollar.Extensions](https://github.com/open-collar/OpenCollar.Extensions)
+* [OpenCollar.Extensions.Configuration](https://github.com/open-collar/OpenCollar.Extensions.Configuration)
+* [OpenCollar.Extensions.Validation](https://github.com/open-collar/OpenCollar.Extensions.Validation)
