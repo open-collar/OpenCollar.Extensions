@@ -13,7 +13,10 @@
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
         <Authors>Jonathan David Evans (jevans@open-collar.org.uk)</Authors>
-        <Description>Support for automatic validation, update and strongly-typed access to configuration.</Description>
+        <Description>
+            This library provides extensions and base classes for low-level .NET framework
+            types.
+        </Description>
         <Copyright>Copyright © 2019-2020 Jonathan Evans (jevans@open-collar.org.uk).</Copyright>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <PackageProjectUrl>https://open-collar.github.io/OpenCollar.Extensions/index.html</PackageProjectUrl>
