@@ -14,8 +14,7 @@
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
         <Authors>Jonathan David Evans (jevans@open-collar.org.uk)</Authors>
         <Description>
-            This library provides extensions and base classes for low-level .NET framework
-            types.
+            This library provides low-level extensions, base classes and functionality.
         </Description>
         <Copyright>Copyright © 2019-2020 Jonathan Evans (jevans@open-collar.org.uk).</Copyright>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
