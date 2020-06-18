@@ -31,6 +31,62 @@ references:
   commentId: F:OpenCollar.Extensions.ArgsUsageKind.Unknown
   fullName: OpenCollar.Extensions.ArgsUsageKind.Unknown
   nameWithType: ArgsUsageKind.Unknown
+- uid: OpenCollar.Extensions.BadImplementationException
+  name: BadImplementationException
+  href: api/OpenCollar.Extensions.BadImplementationException.html
+  commentId: T:OpenCollar.Extensions.BadImplementationException
+  fullName: OpenCollar.Extensions.BadImplementationException
+  nameWithType: BadImplementationException
+- uid: OpenCollar.Extensions.BadImplementationException.#ctor
+  name: BadImplementationException()
+  href: api/OpenCollar.Extensions.BadImplementationException.html#OpenCollar_Extensions_BadImplementationException__ctor
+  commentId: M:OpenCollar.Extensions.BadImplementationException.#ctor
+  fullName: OpenCollar.Extensions.BadImplementationException.BadImplementationException()
+  nameWithType: BadImplementationException.BadImplementationException()
+- uid: OpenCollar.Extensions.BadImplementationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: BadImplementationException(SerializationInfo, StreamingContext)
+  href: api/OpenCollar.Extensions.BadImplementationException.html#OpenCollar_Extensions_BadImplementationException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:OpenCollar.Extensions.BadImplementationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: OpenCollar.Extensions.BadImplementationException.BadImplementationException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: BadImplementationException.BadImplementationException(SerializationInfo, StreamingContext)
+- uid: OpenCollar.Extensions.BadImplementationException.#ctor(System.String)
+  name: BadImplementationException(String)
+  href: api/OpenCollar.Extensions.BadImplementationException.html#OpenCollar_Extensions_BadImplementationException__ctor_System_String_
+  commentId: M:OpenCollar.Extensions.BadImplementationException.#ctor(System.String)
+  fullName: OpenCollar.Extensions.BadImplementationException.BadImplementationException(System.String)
+  nameWithType: BadImplementationException.BadImplementationException(String)
+- uid: OpenCollar.Extensions.BadImplementationException.#ctor(System.String,System.Exception)
+  name: BadImplementationException(String, Exception)
+  href: api/OpenCollar.Extensions.BadImplementationException.html#OpenCollar_Extensions_BadImplementationException__ctor_System_String_System_Exception_
+  commentId: M:OpenCollar.Extensions.BadImplementationException.#ctor(System.String,System.Exception)
+  fullName: OpenCollar.Extensions.BadImplementationException.BadImplementationException(System.String, System.Exception)
+  nameWithType: BadImplementationException.BadImplementationException(String, Exception)
+- uid: OpenCollar.Extensions.BadImplementationException.#ctor*
+  name: BadImplementationException
+  href: api/OpenCollar.Extensions.BadImplementationException.html#OpenCollar_Extensions_BadImplementationException__ctor_
+  commentId: Overload:OpenCollar.Extensions.BadImplementationException.#ctor
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.BadImplementationException.BadImplementationException
+  nameWithType: BadImplementationException.BadImplementationException
+- uid: OpenCollar.Extensions.Compare
+  name: Compare
+  href: api/OpenCollar.Extensions.Compare.html
+  commentId: T:OpenCollar.Extensions.Compare
+  fullName: OpenCollar.Extensions.Compare
+  nameWithType: Compare
+- uid: OpenCollar.Extensions.Compare.CompareAny(System.Object,System.Object)
+  name: CompareAny(Object, Object)
+  href: api/OpenCollar.Extensions.Compare.html#OpenCollar_Extensions_Compare_CompareAny_System_Object_System_Object_
+  commentId: M:OpenCollar.Extensions.Compare.CompareAny(System.Object,System.Object)
+  fullName: OpenCollar.Extensions.Compare.CompareAny(System.Object, System.Object)
+  nameWithType: Compare.CompareAny(Object, Object)
+- uid: OpenCollar.Extensions.Compare.CompareAny*
+  name: CompareAny
+  href: api/OpenCollar.Extensions.Compare.html#OpenCollar_Extensions_Compare_CompareAny_
+  commentId: Overload:OpenCollar.Extensions.Compare.CompareAny
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Compare.CompareAny
+  nameWithType: Compare.CompareAny
 - uid: OpenCollar.Extensions.DelegateExtensions
   name: DelegateExtensions
   href: api/OpenCollar.Extensions.DelegateExtensions.html
