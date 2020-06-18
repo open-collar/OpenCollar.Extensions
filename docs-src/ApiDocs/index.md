@@ -1,7 +1,6 @@
 # OpenCollar.Extensions
 
-This library provides extensions and base classes for low-level .NET framework
-types.
+This library provides extensions and base classes for low-level .NET framework types.
 
 ## NuGet Package
 
