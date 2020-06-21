@@ -31,6 +31,10 @@ namespace OpenCollar.Extensions.TESTS
             var ex = new Exception();
             var handlerCount = 0;
 
+            Assert.False(ExceptionManager.HasRegisteredHandlers());
+            ExceptionManager.OnUnhandledException(null);
+            ExceptionManager.OnUnhandledException(ex);
+
             // There should be no impact calling the exception manager with no handlers.
             ExceptionManager.OnUnhandledException(ex);
             UnhandledExceptionEventArgs args = null;
@@ -39,6 +43,7 @@ namespace OpenCollar.Extensions.TESTS
                 args = a;
                 ++handlerCount;
             };
+            Assert.True(ExceptionManager.HasRegisteredHandlers());
             ExceptionManager.OnUnhandledException(ex);
             Assert.NotNull(args);
             Assert.NotNull(args.Exception);
