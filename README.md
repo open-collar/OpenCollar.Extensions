@@ -16,7 +16,8 @@
  * [GitHub Pages](https://open-collar.github.io/OpenCollar.Extensions/)
 
 This library provides extensions and base classes for low-level .NET framework
-types.
+types.  In particular this includes methods extendending the Delegate and Type
+classes.
 
  * [API Documentation](https://open-collar.github.io/OpenCollar.Extensions/)
  * View package in [nuget.org](https://nuget.org) at: https://www.nuget.org/packages/OpenCollar.Extensions/
@@ -58,8 +59,12 @@ There are no hard dependencies on tooling, all that is required is the
  * [Coveralls GitHub Action](https://github.com/marketplace/actions/coveralls-github-action)
  * [Badges](https://shields.io/category/build)
 
-# Related Project
+# Related Projects
 
 * [OpenCollar.Extensions](https://github.com/open-collar/OpenCollar.Extensions)
-* [OpenCollar.Extensions.Configuration](https://github.com/open-collar/OpenCollar.Extensions.Configuration)
+* [OpenCollar.Extensions.Collections](https://github.com/open-collar/OpenCollar.Extensions.Collections)
+* [OpenCollar.Extensions.Configuraton](https://github.com/open-collar/OpenCollar.Extensions.Configuraton)
+* [OpenCollar.Extensions.IO](https://github.com/open-collar/OpenCollar.Extensions.IO)
+* [OpenCollar.Extensions.Security](https://github.com/open-collar/OpenCollar.Extensions.Security)
+* [OpenCollar.Extensions.Threading](https://github.com/open-collar/OpenCollar.Extensions.Threading)
 * [OpenCollar.Extensions.Validation](https://github.com/open-collar/OpenCollar.Extensions.Validation)

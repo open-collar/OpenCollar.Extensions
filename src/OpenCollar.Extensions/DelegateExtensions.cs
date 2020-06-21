@@ -37,12 +37,14 @@ namespace OpenCollar.Extensions
     public delegate T EventArgsFactory<out T>() where T : EventArgs;
 
     /// <summary>
-    ///     Extensions to the delegate class.
+    ///     Extensions to the <see cref="Delegate"/> type. In particular a "safe"
+    ///     method for raising events that may have no subscribers or for which
+    ///     the subscribers might throw exceptions.
     /// </summary>
     public static class DelegateExtensions
     {
         /// <summary>
-        ///     Gets the delegate description.
+        ///     Gets a description of a delegate and where it implemented.
         /// </summary>
         /// <param name="delegate">
         ///     The delegate to describe.

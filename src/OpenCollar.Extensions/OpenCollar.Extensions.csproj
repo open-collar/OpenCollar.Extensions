@@ -15,6 +15,7 @@
         <Authors>Jonathan David Evans (jevans@open-collar.org.uk)</Authors>
         <Description>
             This library provides extensions and base classes for low-level .NET framework types.
+            In particular this includes methods extendending the Delegate and Type classes.
         </Description>
         <Copyright>Copyright © 2019-2020 Jonathan Evans (jevans@open-collar.org.uk).</Copyright>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
@@ -54,7 +55,7 @@
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
-        <PackageReference Include="OpenCollar.Extensions.Validation" Version="0.5.8" />
+        <PackageReference Include="OpenCollar.Extensions.Validation" Version="0.5.11" />
     </ItemGroup>
 
     <ItemGroup>

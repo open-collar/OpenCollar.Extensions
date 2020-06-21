@@ -26,10 +26,14 @@ namespace OpenCollar.Extensions
 #pragma warning disable S3881 // Fix this implementation of 'IDisposable' to conform to the dispose pattern.
 
     /// <summary>
-    ///     A base class for objects that implement <see cref="IDisposable" />.
+    ///     A base class for objects that implements <see cref="IDisposable" /> and the
+    ///     <see href="https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/implementing-dispose#implement-the-dispose-pattern">Dispose Pattern</see>
+    ///     in a thread-safe way.
     /// </summary>
     /// <remarks>
-    ///     No finalizer is implemented - this is left to the few consumers that will actually need it.
+    ///     No finalizer is implemented - this is left to the few consumers that will actually need it; but, the finalizer
+    ///     is surpressed if the <see cref="IDisposable.Dispose()"/> method is called.  If your class implements a finalizer
+    ///     it should call the <see cref="Dispose(bool)"/> method with the <c>disposing</c> argument set to <see langword="false"/>.
     /// </remarks>
     [Serializable]
     public abstract class Disposable : IDisposable
@@ -69,6 +73,12 @@ namespace OpenCollar.Extensions
         /// <summary>
         ///     Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
         /// </summary>
+        /// <remarks>
+        /// Any exceptions thrown by the implementation of the <see cref="Dispose(bool)"/> method will be caught and
+        /// not re-thrown (see 
+        /// <see href="https://docs.microsoft.com/en-us/visualstudio/code-quality/ca1065?view=vs-2019">CA1065: Do not raise exceptions in unexpected locations</see>
+        /// for more details).
+        /// </remarks>
         public void Dispose()
         {
             var wasDisposed = Interlocked.CompareExchange(ref _isDisposed, Disposed, NotDisposed);

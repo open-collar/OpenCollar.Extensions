@@ -73,7 +73,25 @@
 <h1 id="opencollarextensions">OpenCollar.Extensions</h1>
 
 <p>This library provides extensions and base classes for low-level .NET framework
-types.</p>
+types.  In particular this includes methods extendending the Delegate and Type
+classes.  These include:</p>
+<ul>
+<li><a href="/api/OpenCollar.Extensions.BadImplementationException.html">BadImplementationException</a> - An
+exception thrown when an implementation of an interface or delegate (for example an overridden abstract method or a
+factory class) breaks the contract either explicitly or implicitly expected.</li>
+<li><a href="/api/OpenCollar.Extensions.Compare.html">Compare</a> - Utility methods supporting comparisons
+between objects and values.</li>
+<li><a href="/api/OpenCollar.Extensions.DelegateExtensions.html">DelegateExtensions</a> - Extensions to the
+<a href="https://docs.microsoft.com/en-us/dotnet/api/system.delegate">Delegate</a> type.  In particular a &quot;safe&quot; method for
+raising events that may have no subscribers or for which the subscribers might throw exceptions.</li>
+<li><a href="/api/OpenCollar.Extensions.Disposable.html">Disposable</a> - A base class implementing the
+<a href="https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/implementing-dispose#implement-the-dispose-pattern">Dispose Pattern</a>
+in a thread-safe way.</li>
+<li><a href="/api/OpenCollar.Extensions.ExceptionManager.html">ExceptionManager</a> - Provides a very simple
+way to route all unhandled exceptions through a single point.</li>
+<li><a href="/api/OpenCollar.Extensions.TypeExtensions.html">TypeExtensions</a> - Methods extending the
+<a href="https://docs.microsoft.com/en-us/dotnet/api/system.type">Type</a> type.</li>
+</ul>
 <h2 id="nuget-package">NuGet Package</h2>
 <p>Package and installation instructions at: <a href="https://www.nuget.org/packages/OpenCollar.Extensions/">https://www.nuget.org/packages/OpenCollar.Extensions/</a></p>
 <h2 id="project">Project</h2>
@@ -93,11 +111,16 @@ types.</p>
 </ul>
 <h1 id="usage">Usage</h1>
 <p>This library provides extensions and base classes for low-level .NET framework
-types.</p>
-<h1 id="related-project">Related Project</h1>
+types.  In particular this includes methods extendending the Delegate and Type
+classes.</p>
+<h1 id="related-projects">Related Projects</h1>
 <ul>
 <li><a href="https://github.com/open-collar/OpenCollar.Extensions">OpenCollar.Extensions</a></li>
-<li><a href="https://github.com/open-collar/OpenCollar.Extensions.Configuration">OpenCollar.Extensions.Configuration</a></li>
+<li><a href="https://github.com/open-collar/OpenCollar.Extensions.Collections">OpenCollar.Extensions.Collections</a></li>
+<li><a href="https://github.com/open-collar/OpenCollar.Extensions.Configuraton">OpenCollar.Extensions.Configuraton</a></li>
+<li><a href="https://github.com/open-collar/OpenCollar.Extensions.IO">OpenCollar.Extensions.IO</a></li>
+<li><a href="https://github.com/open-collar/OpenCollar.Extensions.Security">OpenCollar.Extensions.Security</a></li>
+<li><a href="https://github.com/open-collar/OpenCollar.Extensions.Threading">OpenCollar.Extensions.Threading</a></li>
 <li><a href="https://github.com/open-collar/OpenCollar.Extensions.Validation">OpenCollar.Extensions.Validation</a></li>
 </ul>
 </article>
@@ -127,7 +150,7 @@ types.</p>
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <div style='box-sizing: border-box;'><div style='float: left; width: calc(100% - 200px);'>Copyright &copy; 2019-2020 <a href='mailto:jevans@open-collar.org.uk'>Jonathan Evans</a></div><div style='float: left; width: 200px;'><span style='font-style: italic;'>Version: 0.5.9</span></div></div>
+            <div style='box-sizing: border-box;'><div style='float: left; width: calc(100% - 200px);'>Copyright &copy; 2019-2020 <a href='mailto:jevans@open-collar.org.uk'>Jonathan Evans</a></div><div style='float: left; width: 200px;'><span style='font-style: italic;'>Version: BUILD_VERSION</span></div></div>
             
           </div>
         </div>

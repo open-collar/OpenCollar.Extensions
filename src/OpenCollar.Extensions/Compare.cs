@@ -24,7 +24,7 @@ using JetBrains.Annotations;
 namespace OpenCollar.Extensions
 {
     /// <summary>
-    ///     Utilty functions to support comparing.
+    ///     Utility methods supporting comparisons between objects and values.
     /// </summary>
     public static class Compare
     {

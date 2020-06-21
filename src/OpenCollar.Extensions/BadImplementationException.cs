@@ -26,7 +26,8 @@ using JetBrains.Annotations;
 namespace OpenCollar.Extensions
 {
     /// <summary>
-    ///     Exception thrown when a badly implemented override returns an invalid value.
+    /// An exception thrown when an implementation of an interface or delegate (for example an overridden abstract 
+    /// method or a factory class) breaks the contract either explicitly or implicitly expected.
     /// </summary>
     [Serializable]
     [DebuggerDisplay(@"BadImplementationException: {Message}")]
