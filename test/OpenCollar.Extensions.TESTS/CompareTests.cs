@@ -32,7 +32,7 @@ namespace OpenCollar.Extensions.TESTS
             Assert.True(Compare.CompareAny(2, 1) > 0, @"Integers can be compared. (2).");
 
             Assert.True(Compare.CompareAny("1", null) > 0, @"Nulls can be compared. (0).");
-
+            Assert.True(Compare.CompareAny(null, "1") < 0, @"Nulls can be compared. (1).");
             Assert.True(Compare.CompareAny(null, null) == 0, @"Nulls can be compared. (2).");
 
             Assert.True(Compare.CompareAny(new IncomparableTestObject("1"), new ComparableTestObject("1")) == 0, @"Comparables and incomparables can be compared. (0).");
