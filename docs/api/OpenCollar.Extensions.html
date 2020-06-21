@@ -88,16 +88,21 @@
     <h3 id="classes">Classes
   </h3>
       <h4><a class="xref" href="OpenCollar.Extensions.BadImplementationException.html">BadImplementationException</a></h4>
-      <section><p>Exception thrown when a badly implemented override returns an invalid value.</p>
+      <section><p>An exception thrown when an implementation of an interface or delegate (for example an overridden abstract
+method or a factory class) breaks the contract either explicitly or implicitly expected.</p>
 </section>
       <h4><a class="xref" href="OpenCollar.Extensions.Compare.html">Compare</a></h4>
-      <section><p>Utilty functions to support comparing.</p>
+      <section><p>Utility methods supporting comparisons between objects and values.</p>
 </section>
       <h4><a class="xref" href="OpenCollar.Extensions.DelegateExtensions.html">DelegateExtensions</a></h4>
-      <section><p>Extensions to the delegate class.</p>
+      <section><p>Extensions to the <span class="xref">System.Delegate</span> type. In particular a &quot;safe&quot;
+method for raising events that may have no subscribers or for which
+the subscribers might throw exceptions.</p>
 </section>
       <h4><a class="xref" href="OpenCollar.Extensions.Disposable.html">Disposable</a></h4>
-      <section><p>A base class for objects that implement <span class="xref">System.IDisposable</span>.</p>
+      <section><p>A base class for objects that implements <span class="xref">System.IDisposable</span> and the
+<a href="https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/implementing-dispose#implement-the-dispose-pattern">Dispose Pattern</a>
+in a thread-safe way.</p>
 </section>
       <h4><a class="xref" href="OpenCollar.Extensions.ExceptionManager.html">ExceptionManager</a></h4>
       <section><p>The central exception manager used to report and receive all unhandled exceptions in the application.</p>
@@ -144,7 +149,7 @@ callbacks should be raised.</p>
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <div style='box-sizing: border-box;'><div style='float: left; width: calc(100% - 200px);'>Copyright &copy; 2019-2020 <a href='mailto:jevans@open-collar.org.uk'>Jonathan Evans</a></div><div style='float: left; width: 200px;'><span style='font-style: italic;'>Version: 0.5.10</span></div></div>
+            <div style='box-sizing: border-box;'><div style='float: left; width: calc(100% - 200px);'>Copyright &copy; 2019-2020 <a href='mailto:jevans@open-collar.org.uk'>Jonathan Evans</a></div><div style='float: left; width: 200px;'><span style='font-style: italic;'>Version: 0.5.11</span></div></div>
             
           </div>
         </div>
