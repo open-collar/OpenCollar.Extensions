@@ -46,13 +46,14 @@ This library provides extensions and base classes for low-level .NET framework
 types.  In particular this includes methods extendending the Delegate and Type
 classes.
 
-
 # Related Projects
 
 * [OpenCollar.Extensions](https://github.com/open-collar/OpenCollar.Extensions)
 * [OpenCollar.Extensions.Collections](https://github.com/open-collar/OpenCollar.Extensions.Collections)
 * [OpenCollar.Extensions.Configuraton](https://github.com/open-collar/OpenCollar.Extensions.Configuraton)
+* [OpenCollar.Extensions.Environment](https://github.com/open-collar/OpenCollar.Extensions.Environment)
 * [OpenCollar.Extensions.IO](https://github.com/open-collar/OpenCollar.Extensions.IO)
+* [OpenCollar.Extensions.Logging](https://github.com/open-collar/OpenCollar.Extensions.Logging)
 * [OpenCollar.Extensions.Security](https://github.com/open-collar/OpenCollar.Extensions.Security)
 * [OpenCollar.Extensions.Threading](https://github.com/open-collar/OpenCollar.Extensions.Threading)
 * [OpenCollar.Extensions.Validation](https://github.com/open-collar/OpenCollar.Extensions.Validation)
