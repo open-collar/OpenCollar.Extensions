@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenCollar.Extensions.ArgsUsageKind.html",
-          "hash": "SQX0IkzmOnhGFywbJ/9h9A=="
+          "hash": "hEuizkC+r74un300RWnQ5w=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenCollar.Extensions.BadImplementationException.html",
-          "hash": "mwo+0wMrcWE87TCrGsgKyQ=="
+          "hash": "u8H7vYnIhzQEStUUFrp3BQ=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenCollar.Extensions.Compare.html",
-          "hash": "uvBjEDleR7d+uN7cqvPauw=="
+          "hash": "onfr+dSjfS9frUi/SkRLFA=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenCollar.Extensions.DelegateExtensions.html",
-          "hash": "2WiQSlo/alIbRVs+RLjOPw=="
+          "hash": "ij1qaETejfDN36XGn50ogg=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenCollar.Extensions.Disposable.html",
-          "hash": "4MsoaWqhywgs8R2JxEQkyg=="
+          "hash": "yJ7Vp48MFuqGphMZBNGISw=="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenCollar.Extensions.EventArgsFactory-1.html",
-          "hash": "SNgAMGd9RGH24TpOtpTDiQ=="
+          "hash": "QTuNqLTeDtQr4ctFwrmL+A=="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenCollar.Extensions.ExceptionManager.html",
-          "hash": "8gej6lnPyOL47VBDiruZYg=="
+          "hash": "FV/gDdMgrVrBhHD51tLXsQ=="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenCollar.Extensions.TypeExtensions.html",
-          "hash": "pPcYk2yXlZnvhKHNR23t5A=="
+          "hash": "U5XnC2P5Y08ztEcWiKDvOg=="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenCollar.Extensions.UnhandledExceptionEventArgs.html",
-          "hash": "onrpc3b5u3fDw2VrKY55PQ=="
+          "hash": "Khvh9xviBmj0hTWZb3EZaA=="
         }
       },
       "is_incremental": false,
@@ -249,11 +249,10 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "TocDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 10,
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
@@ -262,15 +261,16 @@
           "total_file_count": 3,
           "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 10,
-          "skipped_file_count": 0
-        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
