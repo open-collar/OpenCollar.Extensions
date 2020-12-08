@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenCollar.Extensions.ArgsUsageKind.html",
-          "hash": "sW6nkou6RS0FR4EdRKvoig=="
+          "hash": "hEuizkC+r74un300RWnQ5w=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenCollar.Extensions.BadImplementationException.html",
-          "hash": "+n0xM3PHp13nfpODObe1dQ=="
+          "hash": "u8H7vYnIhzQEStUUFrp3BQ=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenCollar.Extensions.Compare.html",
-          "hash": "LCXJlhXIAjAmC6oCCtPqLA=="
+          "hash": "onfr+dSjfS9frUi/SkRLFA=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenCollar.Extensions.DelegateExtensions.html",
-          "hash": "DIhZukY7F4cWMzg+NIr0YQ=="
+          "hash": "ij1qaETejfDN36XGn50ogg=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenCollar.Extensions.Disposable.html",
-          "hash": "+istAeVLumz6JzLbCFOb+g=="
+          "hash": "yJ7Vp48MFuqGphMZBNGISw=="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenCollar.Extensions.EventArgsFactory-1.html",
-          "hash": "8AXf7P6OJxsHasbiXqHX5A=="
+          "hash": "QTuNqLTeDtQr4ctFwrmL+A=="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenCollar.Extensions.ExceptionManager.html",
-          "hash": "f/jtJ4YtC4eapzZm07LVpw=="
+          "hash": "FV/gDdMgrVrBhHD51tLXsQ=="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenCollar.Extensions.TypeExtensions.html",
-          "hash": "GmPEgnioaKAfMvp9ye77hw=="
+          "hash": "U5XnC2P5Y08ztEcWiKDvOg=="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenCollar.Extensions.UnhandledExceptionEventArgs.html",
-          "hash": "V1fkTUmo/jwAYuWwAGqq3g=="
+          "hash": "Khvh9xviBmj0hTWZb3EZaA=="
         }
       },
       "is_incremental": false,
@@ -195,7 +195,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "03rTCADCaFyGA4MU1p3xlA=="
+          "hash": "AypBYqEpkNp7sXC7linXmA=="
         }
       },
       "is_incremental": false,
@@ -249,13 +249,6 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
@@ -271,6 +264,13 @@
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0

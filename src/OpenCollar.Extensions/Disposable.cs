@@ -32,7 +32,7 @@ namespace OpenCollar.Extensions
     /// </summary>
     /// <remarks>
     ///     No finalizer is implemented - this is left to the few consumers that will actually need it; but, the finalizer
-    ///     is surpressed if the <see cref="IDisposable.Dispose()"/> method is called.  If your class implements a finalizer
+    ///     is suppressed if the <see cref="IDisposable.Dispose()"/> method is called.  If your class implements a finalizer
     ///     it should call the <see cref="Dispose(bool)"/> method with the <c>disposing</c> argument set to <see langword="false"/>.
     /// </remarks>
     [Serializable]
@@ -41,12 +41,18 @@ namespace OpenCollar.Extensions
         /// <summary>
         ///     The value of the <see cref="_isDisposed" /> field if the object has been disposed of.
         /// </summary>
+        [Browsable(false)]
+        [Category(@"__internal")]
+        [EditorBrowsable(EditorBrowsableState.Never)]
         [NonSerialized]
         private const int Disposed = 1;
 
         /// <summary>
         ///     The value of the <see cref="_isDisposed" /> field if the object has NOT been disposed of.
         /// </summary>
+        [Browsable(false)]
+        [Category(@"__internal")]
+        [EditorBrowsable(EditorBrowsableState.Never)]
         [NonSerialized]
         private const int NotDisposed = 0;
 
@@ -55,6 +61,9 @@ namespace OpenCollar.Extensions
         ///     <see cref="NotDisposed" /> for potential values). Access should be made thread-safe by using the
         ///     <see cref="System.Threading.Interlocked" /> class to control access.
         /// </summary>
+        [Browsable(false)]
+        [Category(@"__internal")]
+        [EditorBrowsable(EditorBrowsableState.Never)]
         [NonSerialized]
         private int _isDisposed;
 
@@ -65,7 +74,7 @@ namespace OpenCollar.Extensions
         ///     <see langword="true" /> if this instance has been disposed of; otherwise, <see langword="false" />.
         /// </value>
         [Browsable(false)]
-        [Category("Internal")]
+        [Category(@"__internal")]
         [EditorBrowsable(EditorBrowsableState.Never)]
         [Description("Gets a value indicating whether this instance has been disposed of.")]
         public bool IsDisposed => _isDisposed == Disposed;
@@ -79,7 +88,9 @@ namespace OpenCollar.Extensions
         /// <see href="https://docs.microsoft.com/en-us/visualstudio/code-quality/ca1065?view=vs-2019">CA1065: Do not raise exceptions in unexpected locations</see>
         /// for more details).
         /// </remarks>
+#pragma warning disable CA1063 // Implement IDisposable Correctly
         public void Dispose()
+#pragma warning restore CA1063 // Implement IDisposable Correctly
         {
             var wasDisposed = Interlocked.CompareExchange(ref _isDisposed, Disposed, NotDisposed);
             if(wasDisposed == Disposed)
@@ -93,7 +104,9 @@ namespace OpenCollar.Extensions
             }
 
             // ReSharper disable once EmptyGeneralCatchClause
+#pragma warning disable CA1031 // Do not catch general exception types
             catch
+#pragma warning restore CA1031 // Do not catch general exception types
             {
                 // Dispose must not throw exceptions.
             }
